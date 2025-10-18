@@ -20,14 +20,6 @@ p {
 }
 */
 
-img.atmark {
-	height: 0.9em;
-	width: 0.9em;
-	margin: 0 1px;
-	border: none 0;
-	vertical-align: middle;
-}
-
 a{
 	color: #0000ff;
 }
@@ -39,12 +31,14 @@ a:hover{
 
 p.menu {
 	width: 100%;
+	color: #333333;
 	background-color: #333333;
 }
 
 p.menu a {
 	color: white;
 	background-color: #333333;
+	text-decoration: none;
 }
 
 p.menu a:hover {
