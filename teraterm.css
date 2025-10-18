@@ -32,17 +32,18 @@ a:hover{
 p.menu {
 	width: 100%;
 	color: #333333;
-	background-color: #333333;
+	background: linear-gradient(to bottom, #555555, #222222);
 }
 
 p.menu a {
 	color: white;
-	background-color: #333333;
+	background: linear-gradient(to bottom, #555555, #222222);
 	text-decoration: none;
 }
 
 p.menu a:hover {
-	color: red;
+	color: #000000;
+	background: linear-gradient(to bottom, #AAAAAA, #EEEEEE);
 }
 
 table.header {
