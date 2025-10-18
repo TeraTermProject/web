@@ -20,14 +20,6 @@ p {
 }
 */
 
-img.atmark {
-	height: 0.9em;
-	width: 0.9em;
-	margin: 0 1px;
-	border: none 0;
-	vertical-align: middle;
-}
-
 a{
 	color: #0000ff;
 }
@@ -39,16 +31,19 @@ a:hover{
 
 p.menu {
 	width: 100%;
-	background-color: #333333;
+	color: #333333;
+	background: linear-gradient(to bottom, #555555, #222222);
 }
 
 p.menu a {
 	color: white;
-	background-color: #333333;
+	background: linear-gradient(to bottom, #555555, #222222);
+	text-decoration: none;
 }
 
 p.menu a:hover {
-	color: red;
+	color: #000000;
+	background: linear-gradient(to bottom, #AAAAAA, #EEEEEE);
 }
 
 table.header {
