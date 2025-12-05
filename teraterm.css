@@ -14,20 +14,6 @@ th {
 	background-color: #333333;
 }
 
-/*
-p {
-	text-indent: 1em;
-}
-*/
-
-img.atmark {
-	height: 0.9em;
-	width: 0.9em;
-	margin: 0 1px;
-	border: none 0;
-	vertical-align: middle;
-}
-
 a{
 	color: #0000ff;
 }
@@ -39,7 +25,11 @@ a:hover{
 
 p.menu {
 	width: 100%;
-	background-color: #333333;
+	color: #333333;
+	background: linear-gradient(to bottom, #555555, #222222);
+	margin: 0;
+	padding: 0.3em 0;
+	box-sizing: border-box;
 }
 
 p.menu a {
@@ -54,3 +44,14 @@ p.menu a:hover {
 table.header {
 	width: 100%;
 }
+
+/* メニュー以外のコンテンツに左右の余白を設定 */
+h1, h2, h3, h4, h5, h6,
+p:not(.menu),
+ul, ol, dl,
+table:not(.header),
+pre, blockquote {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
