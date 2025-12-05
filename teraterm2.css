@@ -35,25 +35,19 @@ p.menu {
 	margin: 0;
 	padding: 0.3em 0;
 	box-sizing: border-box;
-	line-height: 1;
-	font-size: 1em;
 }
 
 p.menu a {
 	color: white;
-	background: linear-gradient(to bottom, #555555, #222222);
-	text-decoration: none;
+	background-color: #333333;
 }
 
 p.menu a:hover {
-	color: #000000;
-	background: linear-gradient(to bottom, #AAAAAA, #EEEEEE);
+	color: red;
 }
 
 table.header {
 	width: 100%;
-	padding: 0 1em;
-	box-sizing: border-box;
 }
 
 /* メニュー以外のコンテンツに左右の余白を設定 */
@@ -65,3 +59,4 @@ pre, blockquote {
 	margin-left: 1em;
 	margin-right: 1em;
 }
+
