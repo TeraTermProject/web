@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 img {
 	border: 0px;
 	vertical-align: bottom;
@@ -13,6 +18,12 @@ th {
 	color: #ffffff;
 	background-color: #333333;
 }
+
+/*
+p {
+	text-indent: 1em;
+}
+*/
 
 a{
 	color: #0000ff;
@@ -34,15 +45,19 @@ p.menu {
 
 p.menu a {
 	color: white;
-	background-color: #333333;
+	background: linear-gradient(to bottom, #555555, #222222);
+	text-decoration: none;
 }
 
 p.menu a:hover {
-	color: red;
+	color: #000000;
+	background: linear-gradient(to bottom, #AAAAAA, #EEEEEE);
 }
 
 table.header {
 	width: 100%;
+	padding: 0 1em;
+	box-sizing: border-box;
 }
 
 /* メニュー以外のコンテンツに左右の余白を設定 */
@@ -54,4 +69,3 @@ pre, blockquote {
 	margin-left: 1em;
 	margin-right: 1em;
 }
-
